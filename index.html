@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sons de Animais</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"
+      integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.js"
+      integrity="sha512-TU9AWtV5uUZPX8dbBAH8NQF1tSdigPRRT82vllAQ1Ke28puiqLA6ZVKxtUGlgrH6yWFnkKy+sE6luNEGH9ar0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <header>
+        <h1>Animais controlados por som</h1>
+        <p>Obs: Reproduza diferentes sons: miado, latido, canto, arrulho</p>
+    </header>
+
+    <main>
+        <button onclick="iniciar()">Iniciar</button>
+        <br>
+        <h3 id="somDetectado">Posso ouvir - </h3>
+        <h3 id="precisãoSom">precisão - </h3>
+        <br>
+        <img src="gato.jpg" id="animal1" width="300px" height="300px">
+
+        <img src="cachorro.jpg" id="animal2" width="300px" height="300px">
+
+        <img src="porquinhoDaIndia.jpg" id="animal3" width="300px" height="300px">
+
+        <img src="passarinho.jpg" id="animal4" width="300px" height="300px">
+
+    </main>
+
+    <footer>
+        <br>
+        Desenvolvido por Miguel
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

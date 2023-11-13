@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(194, 201, 201);
+    background-color: rgb(20, 20, 22);
+}
+
+button{
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(194, 201, 201);
+}
+
+footer{
+    font-size: 22px;
+}
+
+img{
+    border-radius: 15px;
+}
